@@ -28,7 +28,7 @@ Each sheet that starts with name LR contains the calculations for the loss for t
 - Hidden layer: 2 neurons
 - Output layer: 2 neurons
 
-![NN Architecture](assets/NN_Architecture.png)
+![NN Architecture](/assets/NN_Architecture.png)
 
 From the above image, we can say that it is a fully-connected neural network with one hidden layer. Therefore, we have 2 input neurons, 2 hidden neurons and 2 output neurons. The weights are initialized to compare the results for different learning rates. We have total 8 weights and 0 biases as we decided to avoid the biases for simplicity.
 
@@ -73,19 +73,19 @@ To calculate the loss, we need to calculate the gradients of the weights in each
 
 From the NN Architecture, we can infer that, the output of each of the neurons can be calculated as follows:
 
-![Outputs of Neurons](assets/Calculations_Part_1.png)
+![Outputs of Neurons](/assets/Calculations_Part_1.png)
 
 And we need to calculate the gradients of the weights in each layer. The gradients are calculated as follows:
 
-![Gradients of Weights](assets/Calculations_Part_2.png)
+![Gradients of Weights](/assets/Calculations_Part_2.png)
 
-![Gradients of Weights](assets/Calculations_Part_3.png)
+![Gradients of Weights](/assets/Calculations_Part_3.png)
 
-![Gradients of Weights](assets/Calculations_Part_4.png)
+![Gradients of Weights](/assets/Calculations_Part_4.png)
 
-![Gradients of Weights](assets/Calculations_Part_5.png)
+![Gradients of Weights](/assets/Calculations_Part_5.png)
 
-![Gradients of Weights](assets/Calculations_Part_6.png)
+![Gradients of Weights](/assets/Calculations_Part_6.png)
 
 
 ### Results
@@ -94,11 +94,11 @@ Now, we are taking each of the inputs and intermediate gradients in each column 
 
 The sample calculations for the loss for the initial epochs for a learning rate of 2.0 is as follows:
 
-![Sample Calculations](assets/Sample_Calculations.png)
+![Sample Calculations](/assets/Sample_Calculations.png)
 
 The loss curves for different learning rates are as follows:
 
-![Loss Curves](assets/Loss_Curves.png)
+![Loss Curves](/assets/Loss_Curves.png)
 
 From the above graph, we can infer that, the loss decreases with each epoch for all the learning rates. But the rate at which the loss decreases is different for each learning rate. The loss decreases faster for higher learning rates and slower for lower learning rates. This is because, for higher learning rates, the weights are updated by a larger amount and for lower learning rates, the weights are updated by a smaller amount. Therefore, the loss decreases faster for higher learning rates and slower for lower learning rates.
 
@@ -364,7 +364,7 @@ The total number of parameters in the model is 16976.
 ## Training and Validation Losses
 
 The training and validation losses are plotted in the S6 Part 2.ipynb file. The model achieves a training accuracy of 98.80% and testing accuracy of 99.43% in 19 epochs. 
-![Losses](assets/results.png)
+![Losses](/assets/results.png)
 
 
 ## Test Against Custom Images
