@@ -28,7 +28,7 @@ Each sheet that starts with name LR contains the calculations for the loss for t
 - Hidden layer: 2 neurons
 - Output layer: 2 neurons
 
-<img src="./assets/NN_Architecture.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776664-0c7a5da5-efd9-4369-8120-da38ec7d91da.png" />
 
 From the above image, we can say that it is a fully-connected neural network with one hidden layer. Therefore, we have 2 input neurons, 2 hidden neurons and 2 output neurons. The weights are initialized to compare the results for different learning rates. We have total 8 weights and 0 biases as we decided to avoid the biases for simplicity.
 
@@ -73,19 +73,19 @@ To calculate the loss, we need to calculate the gradients of the weights in each
 
 From the NN Architecture, we can infer that, the output of each of the neurons can be calculated as follows:
 
-<img src="./assets/Calculations_Part_1.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776625-ecbc309c-a880-4bc7-8845-3a984b5b5791.png" />
 
 And we need to calculate the gradients of the weights in each layer. The gradients are calculated as follows:
 
-<img src="./assets/Calculations_Part_2.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776634-115296de-8650-49a7-b5ba-9a35030dc326.png" />
 
-<img src="./assets/Calculations_Part_3.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776638-3e7f03da-4fda-4ef6-a493-a6d54b85f427.png" />
 
-<img src="./assets/Calculations_Part_4.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776642-f01274c6-5c1b-4518-aca5-857841010fcd.png" />
 
-<img src="./assets/Calculations_Part_5.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776645-de27c429-0e15-4305-9b62-6183883e8177.png" />
 
-<img src="./assets/Calculations_Part_6.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776652-0a066df8-e1fb-4363-8717-670f69801342.png" />
 
 
 ### Results
@@ -94,11 +94,11 @@ Now, we are taking each of the inputs and intermediate gradients in each column 
 
 The sample calculations for the loss for the initial epochs for a learning rate of 2.0 is as follows:
 
-<img src="./assets/Sample_Calculations.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776681-f0363730-657c-4b85-ba1a-798c9a0896b4.png" />
 
 The loss curves for different learning rates are as follows:
 
-<img src="./assets/Loss_Curves.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244776658-6e06e524-446b-4e7d-9b62-d9af52e0ccd5.png" />
 
 From the above graph, we can infer that, the loss decreases with each epoch for all the learning rates. But the rate at which the loss decreases is different for each learning rate. The loss decreases faster for higher learning rates and slower for lower learning rates. This is because, for higher learning rates, the weights are updated by a larger amount and for lower learning rates, the weights are updated by a smaller amount. Therefore, the loss decreases faster for higher learning rates and slower for lower learning rates.
 
@@ -365,7 +365,7 @@ The total number of parameters in the model is 16976.
 
 The training and validation losses are plotted in the S6 Part 2.ipynb file. The model achieves a training accuracy of 98.80% and testing accuracy of 99.43% in 19 epochs. 
 
-<img src="./assets/results.png" />
+<img src="https://user-images.githubusercontent.com/38718218/244777563-45c1da9f-9b0f-4c1c-a48a-eddc045a07d2.png" />
 
 
 ## Test Against Custom Images
